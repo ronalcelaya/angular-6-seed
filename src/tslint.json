@@ -1,6 +1,9 @@
 {
     "extends": "../tslint.json",
     "rules": {
+        "quotemark": [
+            true, "double", "avoid-escape"
+        ],
         "directive-selector": [
             true,
             "attribute",
@@ -8,10 +11,7 @@
             "camelCase"
         ],
         "component-selector": [
-            true,
-            "element",
-            "app",
-            "kebab-case"
+            false,
         ]
     }
 }
